@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shopease-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: shopease-frontend
+  template:
+    metadata:
+      labels:
+        tier: shopease-frontend
+    spec:
+      containers:
+        - name: shopease-frontend
+          image: devesh11411/shopease-frontend:v1.0.0
+          ports:
+            - containerPort: 80

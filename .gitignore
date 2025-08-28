@@ -1,0 +1,6 @@
+dev-secret.yaml
+prod-secret.yaml
+*.secret.yaml
+*.pub
+*.pem
+*.key
