@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - devesh11411/shopease-frontend:v1.0.2
+  - devesh11411/shopease-frontend:v1.0.3
