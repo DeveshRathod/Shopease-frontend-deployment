@@ -12,6 +12,8 @@ spec:
       labels:
         tier: shopease-frontend
     spec:
+      nodeSelector:
+        kubernetes.io/arch: amd64
       containers:
         - name: shopease-frontend
           image: devesh11411/shopease-frontend:v1.0.0
